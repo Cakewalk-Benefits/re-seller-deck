@@ -22,7 +22,7 @@ interface WorkflowVisualizerProps {
 }
 
 const WorkflowVisualizer = ({ steps }: WorkflowVisualizerProps) => {
-  const [activeTab, setActiveTab] = useState("registration");
+  const [activeTab, setActiveTab] = useState("agent-portal");
   const [tabs, setTabs] = useState<Tab[]>([
     {
       id: "agent-portal",
