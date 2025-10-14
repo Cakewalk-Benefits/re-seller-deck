@@ -25,6 +25,16 @@ const WorkflowVisualizer = ({ steps }: WorkflowVisualizerProps) => {
   const [activeTab, setActiveTab] = useState("registration");
   const [tabs, setTabs] = useState<Tab[]>([
     {
+      id: "agent-portal",
+      title: "Agent Portal",
+      url: "https://owner-cockpit.lovable.app/agent/dashboard",
+      component: <WebsiteEmbed 
+        title="Agent Portal"
+        url="https://owner-cockpit.lovable.app/agent/dashboard"
+        description="Agent Portal Dashboard"
+      />
+    },
+    {
       id: "registration",
       title: "Registration",
       url: "app.cakewalkbenefits.com/register",
@@ -68,6 +78,8 @@ const WorkflowVisualizer = ({ steps }: WorkflowVisualizerProps) => {
     
     // Return masked URL based on tab
     switch (currentTab.id) {
+      case 'agent-portal':
+        return 'cakewalkbenefits.com/agent-portal';
       case 'registration':
         return 'cakewalkbenefits.com/simple-registration';
       case 'underwriting':
