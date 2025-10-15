@@ -8,7 +8,6 @@ import {
 } from "lucide-react";
 import NavigationArrow from "./navigation/NavigationArrow";
 import BottomCornerLogo from "./BottomCornerLogo";
-import ReadyToGetStarted from "./call-to-action/ReadyToGetStarted";
 
 interface ResellerValueProps {
   onNavigateNext: () => void;
@@ -44,7 +43,7 @@ const points: Array<{
     icon: <RefreshCw className="h-6 w-6 text-brand-blue" />,
   },
   {
-    title: "Differentiate Your Agency",
+    title: "Differentiate Your Firm",
     description:
       "Position yourself as the SMB benefits expert with a modern, turnkey solution competitors can’t match.",
     accent: "differentiation",
@@ -173,16 +172,6 @@ const ResellerValue = ({ onNavigateNext }: ResellerValueProps) => {
               </motion.article>
             );
           })}
-        </motion.div>
-
-        {/* Call-to-Action Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-        >
-          <ReadyToGetStarted />
         </motion.div>
       </div>
 
