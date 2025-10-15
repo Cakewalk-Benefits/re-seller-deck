@@ -35,24 +35,24 @@ const partnerColumns: Record<string, string[]> = {
 
 const stageDetails: Record<string, { headline: string; bullets: string[] }> = {
   Distribution: {
-    headline: "Agents stay in the field, Cakewalk runs the engine",
+    headline: "Advisors stay in the field, Cakewalk runs the engine",
     bullets: [
-      "Turn-key sales journeys let agents plug prospects into Cakewalk without touching back-office paperwork.",
+      "Turn-key sales journeys let advisors plug prospects into Cakewalk without touching back-office paperwork.",
       "We handle quoting, enrollment, and compliance workflows so every reseller conversation stays focused on value.",
-      "Shared dashboards surface pipeline and performance, keeping agents selling while Cakewalk fulfils every policy step.",
+      "Shared dashboards surface pipeline and performance, keeping advisors selling while Cakewalk fulfils every policy step.",
     ],
   },
   "Product Design": {
     headline: "Pre-built, compliant benefits packages",
     bullets: [
       "Cakewalk assembles carrier-approved bundles that stay current on pricing, regulations, and contribution rules.",
-      "Agents select from industry-ready templates knowing coverage, filings, and compliance are already handled.",
+      "Advisors select from industry-ready templates knowing coverage, filings, and compliance are already handled.",
     ],
   },
   Underwriting: {
     headline: "Delegated underwriting handled behind the scenes",
     bullets: [
-      "Real-time data pipes drive instant underwriting decisions without agent follow-up.",
+      "Real-time data pipes drive instant underwriting decisions without advisor follow-up.",
       "Cakewalk manages approvals, requirements, and carrier coordination so resellers never chase paperwork.",
     ],
   },
@@ -67,7 +67,7 @@ const stageDetails: Record<string, { headline: string; bullets: string[] }> = {
     headline: "Embedded billing, compliance, and servicing",
     bullets: [
       "Cakewalk automates employer onboarding, premium collection, and remittance across every carrier partner.",
-      "Continuous compliance monitoring, member support, and renewals are handled centrally so agents can stay in market.",
+      "Continuous compliance monitoring, member support, and renewals are handled centrally so advisors can stay in market.",
     ],
   },
   "Claim Mgmt": {
@@ -107,7 +107,7 @@ const CakewalkModel = ({ onNavigateNext }: CakewalkModelProps) => {
             <h1 className="mt-4 text-3xl font-bold text-brand-darkBlue md:text-5xl">
               The Cakewalk Model
             </h1>
-            <p className="mt-2 text-xl font-semibold text-brand-blue">A digital first experience across the entire value chain making agent-led sales easy and profitable</p>
+            <p className="mt-2 text-xl font-semibold text-brand-blue">A digital first experience across the entire value chain making advisor-led sales easy and profitable</p>
           </div>
 
         </div>

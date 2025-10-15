@@ -58,7 +58,7 @@ const ComparisonTable = () => {
   }, {
     traditional: {
       icon: FileText,
-      text: "Agent-led, paperwork-intensive"
+      text: "Advisor-led, paperwork-intensive"
     },
     cakewalk: {
       icon: Laptop,

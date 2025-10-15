@@ -22,16 +22,16 @@ interface WorkflowVisualizerProps {
 }
 
 const WorkflowVisualizer = ({ steps }: WorkflowVisualizerProps) => {
-  const [activeTab, setActiveTab] = useState("agent-portal");
+  const [activeTab, setActiveTab] = useState("advisor-portal");
   const [tabs, setTabs] = useState<Tab[]>([
     {
-      id: "agent-portal",
-      title: "Agent Portal",
+      id: "advisor-portal",
+      title: "Advisor Portal",
       url: "https://owner-cockpit.lovable.app/agent/dashboard",
       component: <WebsiteEmbed 
-        title="Agent Portal"
+        title="Advisor Portal"
         url="https://owner-cockpit.lovable.app/agent/dashboard"
-        description="Agent Portal Dashboard"
+        description="Advisor Portal Dashboard"
       />
     },
     {
@@ -78,8 +78,8 @@ const WorkflowVisualizer = ({ steps }: WorkflowVisualizerProps) => {
     
     // Return masked URL based on tab
     switch (currentTab.id) {
-      case 'agent-portal':
-        return 'cakewalkbenefits.com/agent-portal';
+      case 'advisor-portal':
+        return 'cakewalkbenefits.com/advisor-portal';
       case 'registration':
         return 'cakewalkbenefits.com/simple-registration';
       case 'underwriting':

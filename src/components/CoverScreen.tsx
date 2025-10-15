@@ -51,7 +51,7 @@ const CoverScreen = ({
             }}
             className="font-semibold mt-4 md:mt-6 text-white max-w-[900px] mx-auto"
           >
-            Cakewalk Agent Partnership Program
+            Cakewalk Advisor Partnership Program
           </motion.h1>
 
           <motion.p

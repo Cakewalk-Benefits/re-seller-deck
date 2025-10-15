@@ -24,7 +24,7 @@ const ReadyToGetStarted = () => {
             Ready to Get Started?
           </h3>
           <p className="text-base text-white/90 max-w-xl mx-auto">
-            Join hundreds of agents who are already scaling their business with Cakewalk's comprehensive benefits platform.
+            Join hundreds of advisors who are already scaling their business with Cakewalk's comprehensive benefits platform.
           </p>
         </div>
 
@@ -71,10 +71,10 @@ const ReadyToGetStarted = () => {
       >
         <div className="text-center mb-6">
           <h3 className="text-xl md:text-2xl font-bold text-brand-darkBlue mb-3">
-            Agent Application Form
+            Advisor Application Form
           </h3>
           <p className="text-base text-brand-gray max-w-xl mx-auto">
-            Complete the form below to start your agent partnership application.
+            Complete the form below to start your advisor partnership application.
           </p>
         </div>
         
@@ -95,7 +95,7 @@ const ReadyToGetStarted = () => {
               frameBorder="0"
               marginHeight={0}
               marginWidth={0}
-              title="Agent Application Form"
+              title="Advisor Application Form"
               style={{ 
                 border: 'none',
                 overflow: 'hidden',

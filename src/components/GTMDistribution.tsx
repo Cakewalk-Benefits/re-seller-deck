@@ -5,7 +5,7 @@ import BottomCornerLogo from "./BottomCornerLogo";
 import NavigationArrow from "./navigation/NavigationArrow";
 import PartnerLogo from "./PartnerLogo";
 import afboaLogo from "../assets/afboa-logo.svg";
-import agentsAssociationLogo from "../assets/agents-association-logo.svg";
+import advisorsAssociationLogo from "../assets/agents-association-logo.svg";
 import kyfbLogo from "../assets/KYFB.jpeg";
 import michiganFarmBureauLogo from "../assets/michigan-farm-bureau-logo.svg";
 import farmBureauFinancialServicesLogo from "../assets/farm-bureau-financial-services-logo.svg";
@@ -70,7 +70,7 @@ const approaches: ApproachDefinition[] = [
       { label: "2026", note: "Scale through expanding partner SKUs" },
     ],
     footnote:
-      "* First re-selling persona centers on P&C agents already serving SMBs—Cakewalk extends their book with embedded benefits and rapid commissions.",
+      "* First re-selling persona centers on P&C advisors already serving SMBs—Cakewalk extends their book with embedded benefits and rapid commissions.",
   },
   {
     id: "affinity",
@@ -98,11 +98,11 @@ const approaches: ApproachDefinition[] = [
       },
       {
         id: "logo-a2",
-        name: "The Agents Association",
+        name: "The Advisors Association",
         smbs: "650",
         policyHolders: "1500",
         mrr: "$45K",
-        asset: agentsAssociationLogo,
+        asset: advisorsAssociationLogo,
       },
       {
         id: "logo-a3",

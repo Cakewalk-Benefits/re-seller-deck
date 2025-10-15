@@ -29,7 +29,7 @@ export const problemCards: ProblemCardData[] = [
   {
     icon: <Layers className="w-8 h-8" />,
     title: "Platform Economics",
-    description: "Legacy platforms don’t let brokers/agents efficiently offer, quote, or service SMBs. Disconnected rails across Product Design, Underwriting, Admin/recordkeeping, and Billing/Payroll make small groups unprofitable. Cakewalk’s technology and value‑chain control flips the economics for agents.",
+    description: "Legacy platforms don’t let brokers/advisors efficiently offer, quote, or service SMBs. Disconnected rails across Product Design, Underwriting, Admin/recordkeeping, and Billing/Payroll make small groups unprofitable. Cakewalk’s technology and value‑chain control flips the economics for advisors.",
     color: "#7966F8",
     delay: "300ms"
   }

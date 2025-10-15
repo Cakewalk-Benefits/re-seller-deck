@@ -98,7 +98,7 @@ const ResellerValue = ({ onNavigateNext }: ResellerValueProps) => {
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-12 px-4 md:px-6">
         <header className="space-y-4 text-left md:text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-brand-blue">Reseller Value Proposition</p>
-          <h1 className="text-3xl font-bold text-brand-darkBlue md:text-5xl">Why Agents Scale with Cakewalk</h1>
+          <h1 className="text-3xl font-bold text-brand-darkBlue md:text-5xl">Why Advisors Scale with Cakewalk</h1>
           <p className="mx-auto max-w-3xl text-base text-brand-gray md:text-lg">
             Cakewalk handles product design, compliance, and administration so resellers stay focused on building relationships,
             closing business, and growing long-term value.

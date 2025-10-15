@@ -20,8 +20,8 @@ const constituents: Tile[] = [
     description: "Employers and their workers get turnkey access to modern benefits.",
   },
   {
-    id: "agents",
-    title: "Agents & Resellers",
+    id: "advisors",
+    title: "Advisors & Resellers",
     description: "Distribution partners sell differentiated bundles without new admin lift.",
   },
   {
@@ -105,7 +105,7 @@ const techLayers: Tile[] = [
   },
   {
     id: "partner-os",
-    title: "Partner & Agent OS",
+    title: "Partner & Advisor OS",
     description: "Easy re-selling, instant pricing, agreements, and performance analytics for channels.",
   },
   {

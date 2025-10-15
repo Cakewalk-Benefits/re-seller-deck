@@ -52,7 +52,7 @@ const comparisonRows: { label: string; values: ComparisonValue[]; highlight?: bo
     values: [true, false],
   },
   {
-    label: "Agent app & client self-serve app",
+    label: "Advisor app & client self-serve app",
     values: [true, false],
   },
   {
@@ -109,13 +109,13 @@ const WhyNow = ({ onNavigateNext }: WhyNowProps) => {
           className="mb-10 md:mb-16"
         >
           <span className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-blue">
-            Agent Experience
+            Advisor Experience
           </span>
           <h2 className="mt-4 max-w-3xl font-grotesk text-3xl font-bold text-brand-darkBlue md:text-5xl whitespace-nowrap">
-            World Class Agent Experience
+            World Class Advisor Experience
           </h2>
           <p className="mt-3 max-w-2xl text-lg leading-relaxed text-gray-600 md:text-xl">
-            Enabling agents to sell small businesses employee benefits, profitably, and at scale.
+            Enabling advisors to sell small businesses employee benefits, profitably, and at scale.
           </p>
         </motion.div>
 
@@ -132,13 +132,13 @@ const WhyNow = ({ onNavigateNext }: WhyNowProps) => {
               <div className="flex flex-wrap items-center gap-4 border-b border-brand-lightBlue/30 bg-brand-lightBlue/15 p-6 backdrop-blur-sm">
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-blue/70">
-                    Agent enablement
+                    Advisor enablement
                   </p>
                   <p className="mt-2 text-2xl font-semibold text-brand-darkBlue">
-                    Why agents scale faster with Cakewalk
+                    Why advisors scale faster with Cakewalk
                   </p>
                   <p className="text-sm text-brand-gray">
-                    A comparison of the support agents receive across distribution partners.
+                    A comparison of the support advisors receive across distribution partners.
                   </p>
                 </div>
               </div>

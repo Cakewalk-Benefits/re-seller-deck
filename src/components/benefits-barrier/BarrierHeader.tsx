@@ -16,7 +16,7 @@ const BarrierHeader = ({
     duration: 0.6
   }} className="text-center mb-12">
       <Badge className="mb-4 bg-brand-blue/10 text-brand-blue hover:bg-brand-blue/20 border-none px-4 py-1.5 text-sm font-medium mx-auto" variant="outline">
-        The Opportunity for Agents
+        The Opportunity for Advisors
       </Badge>
       
       <motion.h2 initial={{
@@ -29,7 +29,7 @@ const BarrierHeader = ({
       duration: 0.7,
       delay: 0.2
     }} className="mb-6 text-5xl">
-        Employee Benefits Are the Next Growth Channel for Agents
+        Employee Benefits Are the Next Growth Channel for Advisors
       </motion.h2>
 
       <motion.p
@@ -40,9 +40,9 @@ const BarrierHeader = ({
       >
         The opportunity in employee benefits has never been greater. More than 80% of small and
         medium-sized businesses remain underserved in the benefits market, creating a massive
-        whitespace for agents who can deliver modern solutions. When you add benefits to your client
+        whitespace for advisors who can deliver modern solutions. When you add benefits to your client
         relationships, retention rates soar. Clients who purchase multiple lines of coverage stay
-        with their agents longer, refer more business, and build deeper trust over time.
+        with their advisors longer, refer more business, and build deeper trust over time.
       </motion.p>
     </motion.div>;
 };

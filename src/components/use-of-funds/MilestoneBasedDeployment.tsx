@@ -10,7 +10,7 @@ const milestoneGroups = [
     checkClass: "text-brand-purple",
     items: [
       "Complete TPA licensing in 15 target states",
-      "Scale reseller program from 20 to 200 active agents",
+      "Scale reseller program from 20 to 200 active advisors",
       "Expand affinity group partners from 3 to 5 communities",
       "Launch first embedded platform partnership"
     ]
@@ -23,7 +23,7 @@ const milestoneGroups = [
     items: [
       "Reach 15,000 lives served milestone",
       "Achieve TPA licensing in 40 states",
-      "Operate agent reseller platform at scale (1,000+ agents reselling)",
+      "Operate advisor reseller platform at scale (1,000+ advisors reselling)",
       "Launch broker enablement platform",
       "Establish profitability at unit economic level"
     ]
