@@ -22,13 +22,13 @@ export const problemCards: ProblemCardData[] = [
   {
     icon: <PieChart className="w-8 h-8" />,
     title: "Complexity",
-    description: "Small businesses struggle with the complexity of traditional employee benefits solutions, facing mountains of paperwork and confusing options.",
+    description: "Small businesses remain challenged by offerings that are designed for larger employers. Intermediaries and carriers don't come down to small business resource levels, further compounding the problem.",
     color: "#15CB94",
     delay: "200ms"
   },
   {
     icon: <Layers className="w-8 h-8" />,
-    title: "Platform Economics",
+    title: "SMB Segment Economics",
     description: "Legacy platforms don’t let brokers/advisors efficiently offer, quote, or service SMBs. Disconnected rails across Product Design, Underwriting, Admin/recordkeeping, and Billing/Payroll make small groups unprofitable. Cakewalk’s technology and value‑chain control flips the economics for advisors.",
     color: "#7966F8",
     delay: "300ms"
