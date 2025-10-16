@@ -6,7 +6,8 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
-  const base = env.VITE_BASE?.startsWith("/") ? env.VITE_BASE : "/";
+  // Default to "/" for Amplify, allow override with VITE_BASE for GitHub Pages
+  const base = env.VITE_BASE && env.VITE_BASE.startsWith("/") ? env.VITE_BASE : "/";
 
   return {
     base,
